@@ -10,6 +10,7 @@
       });
       return window.close();
     });
+
     return $('#restore-button').click(function() {
       chrome.tabs.executeScript(null, {
         file: 'jquery.js'
@@ -20,5 +21,4 @@
       return window.close();
     });
   });
-
 }).call(this);
